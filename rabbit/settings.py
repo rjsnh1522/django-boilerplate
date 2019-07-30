@@ -134,7 +134,7 @@ REDIS_PORT = 6379
 REDIS_DB = 1
 # Channels
 
-ASGI_APPLICATION = "cast.routing.application"
+ASGI_APPLICATION = "rabbit.routing.application"
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
